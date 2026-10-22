@@ -17,13 +17,10 @@ npm install
 # 2. Configure environment
 cp .env.example .env        # then edit DB_URL and the JWT secrets
 
-# 3. (Optional) demo data for the charts: 14 doctors + 160 patients (WIPES doctors & patients)
-npm run seed:sample
-
-# 4. Run
+# 3. Run
 npm run dev                 # http://localhost:5000  (API under /api/v1)
 
-# Production
+4 Production
 npm run build && npm start
 ```
 
